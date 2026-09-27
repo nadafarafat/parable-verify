@@ -1,0 +1,13 @@
+{
+  "name": "parable-verify-core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Parable Verify — sensing layer (Graph discovery) and rep-mapping rules engine, built independently of any dashboard/UI.",
+  "scripts": {
+    "test:parse": "node src/dev/testParse.js"
+  },
+  "dependencies": {
+    "@azure/msal-node": "^2.9.2"
+  }
+}
